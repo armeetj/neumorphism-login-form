@@ -25,21 +25,27 @@ body {
 }
 
 .logo {
-    // margin: 0 auto;
+    width: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    border-radius: 50%;
+    background: linear-gradient(145deg, #fdfdfd, #d4d4d4);
+    box-shadow: 11px 11px 30px #9c9c9c, -11px -11px 30px #ffffff;
+
     img {
         width: 100px;
         height: 100px;
         filter: brightness(0.3);
         transition: all 0.3s ease 0s;
-
         &:hover {
-            transform: rotate(20deg);
+            transform: rotate(5deg);
             filter: brightness(0.2);
         }
+    }
+    transition: all 0.3s ease 0s;
+    &:hover {
+        transform: rotate(5deg);
     }
     border-radius: 50%;
 }

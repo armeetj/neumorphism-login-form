@@ -33,6 +33,7 @@ body {
 }
 
 .logo {
+  width: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -42,6 +43,12 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  border-radius: 50%;
+  background: linear-gradient(145deg, #fdfdfd, #d4d4d4);
+  -webkit-box-shadow: 11px 11px 30px #9c9c9c, -11px -11px 30px #ffffff;
+          box-shadow: 11px 11px 30px #9c9c9c, -11px -11px 30px #ffffff;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
   border-radius: 50%;
 }
 
@@ -55,9 +62,14 @@ body {
 }
 
 .logo img:hover {
-  -webkit-transform: rotate(20deg);
-          transform: rotate(20deg);
+  -webkit-transform: rotate(5deg);
+          transform: rotate(5deg);
   -webkit-filter: brightness(0.2);
           filter: brightness(0.2);
+}
+
+.logo:hover {
+  -webkit-transform: rotate(5deg);
+          transform: rotate(5deg);
 }
 /*# sourceMappingURL=style.css.map */
