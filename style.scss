@@ -25,5 +25,21 @@ body {
 }
 
 .logo {
-    background: url("img/a.png")
+    // margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    img {
+        width: 100px;
+        height: 100px;
+        filter: brightness(0.3);
+        transition: all 0.3s ease 0s;
+
+        &:hover {
+            transform: rotate(20deg);
+            filter: brightness(0.2);
+        }
+    }
+    border-radius: 50%;
 }

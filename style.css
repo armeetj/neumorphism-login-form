@@ -33,6 +33,31 @@ body {
 }
 
 .logo {
-  background: url("img/a.png");
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50%;
+}
+
+.logo img {
+  width: 100px;
+  height: 100px;
+  -webkit-filter: brightness(0.3);
+          filter: brightness(0.3);
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.logo img:hover {
+  -webkit-transform: rotate(20deg);
+          transform: rotate(20deg);
+  -webkit-filter: brightness(0.2);
+          filter: brightness(0.2);
 }
 /*# sourceMappingURL=style.css.map */
