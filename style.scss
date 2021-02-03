@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: none;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    font-family: 'Ubuntu Mono', monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #555;
+    background: #ececec;
+}
