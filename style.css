@@ -8,7 +8,7 @@ body {
   height: 100vh;
   width: 100vw;
   overflow: hidden;
-  font-family: 'Ubuntu Mono', monospace;
+  font-family: "Ubuntu Mono", monospace;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -20,5 +20,15 @@ body {
           justify-content: center;
   color: #555;
   background: #ececec;
+}
+
+.login {
+  width: 430px;
+  height: 700px;
+  padding: 60px 30px 30px 30px;
+  border-radius: 40px;
+  background: #ececec;
+  -webkit-box-shadow: 11px 11px 30px #c9c9c9, -11px -11px 30px #ffffff;
+          box-shadow: 11px 11px 30px #c9c9c9, -11px -11px 30px #ffffff;
 }
 /*# sourceMappingURL=style.css.map */

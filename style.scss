@@ -7,10 +7,19 @@ body {
     height: 100vh;
     width: 100vw;
     overflow: hidden;
-    font-family: 'Ubuntu Mono', monospace;
+    font-family: "Ubuntu Mono", monospace;
     display: flex;
     align-items: center;
     justify-content: center;
     color: #555;
     background: #ececec;
+}
+
+.login {
+    width: 430px;
+    height: 700px;
+    padding: 60px 30px 30px 30px;
+    border-radius: 40px;
+    background: #ececec;
+    box-shadow: 11px 11px 30px #c9c9c9, -11px -11px 30px #ffffff;
 }
