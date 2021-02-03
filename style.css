@@ -31,4 +31,8 @@ body {
   -webkit-box-shadow: 11px 11px 30px #c9c9c9, -11px -11px 30px #ffffff;
           box-shadow: 11px 11px 30px #c9c9c9, -11px -11px 30px #ffffff;
 }
+
+.logo {
+  background: url("img/a.png");
+}
 /*# sourceMappingURL=style.css.map */
