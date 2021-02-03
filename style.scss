@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: "Ubuntu Mono", monospace;
 }
 
 body {
@@ -7,7 +8,6 @@ body {
     height: 100vh;
     width: 100vw;
     overflow: hidden;
-    font-family: "Ubuntu Mono", monospace;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -52,7 +52,6 @@ body {
     border-radius: 50%;
 }
 
-
 .title {
     text-align: center;
     font-size: 30px;
@@ -70,17 +69,35 @@ body {
     text-transform: uppercase;
 }
 
-.fields {
-    width: 100%;
-    padding: 75px 5px 5px 5px;
-
+.fields {    
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 45px 5px 5px 5px;
+    height: 200px;
     input {
+        // margin-left: 10px;
+        width: 100%;
         border: none;
         outline: none;
         background: none;
         font-size: 18px;
         color: #555;
-        padding: 20px 10px;
+        padding: 20px 50px;
+        border-radius: 15px;
+        background: #ececec;
+        box-shadow: inset 7px 7px 14px #d2d2d2,
+            inset -7px -7px 14px #ffffff;
+            text-align: center;
+
+    }
+
+    img {
+        height: 20px;
+        left: 20px;
+        margin-top: 16px;
+        position: absolute;
+        opacity: 0.7;
     }
 }
-
