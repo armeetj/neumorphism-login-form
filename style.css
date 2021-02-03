@@ -74,4 +74,21 @@ body {
   -webkit-transform: rotate(5deg);
           transform: rotate(5deg);
 }
+
+.title {
+  text-align: center;
+  font-size: 30px;
+  padding-top: 30px;
+  letter-spacing: 0.5px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 15px;
+  padding-top: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
 /*# sourceMappingURL=style.css.map */
